@@ -29,6 +29,7 @@ interface Queue<T> {
 	 */
 	flush(): void;
 
+
 }
 
 export default Queue;
