@@ -1,5 +1,5 @@
-import Queue from "../support/structures/Queue";
-import BaseQueue from "../support/structures/impl/BaseQueue";
+import Queue from "../structures/Queue";
+import BaseQueue from "../structures/impl/BaseQueue";
 import Key from "./Key";
 import KeyboardEventType from "./KeyboardEventType";
 import KeyboardEvent from "./KeyboardEvent";

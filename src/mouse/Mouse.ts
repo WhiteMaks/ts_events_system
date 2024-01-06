@@ -1,5 +1,5 @@
-import Queue from "../support/structures/Queue";
-import BaseQueue from "../support/structures/impl/BaseQueue";
+import Queue from "../structures/Queue";
+import BaseQueue from "../structures/impl/BaseQueue";
 import MouseEventType from "./MouseEventType";
 import MouseEvent from "./MouseEvent";
 
@@ -115,14 +115,14 @@ class Mouse {
 	/**
 	 * Получение статуса нажатия левой кнопки мышки
 	 */
-	public isLeftKeyIsPressed(): boolean {
+	public isLeftKeyPressed(): boolean {
 		return this.leftKeyIsPressed;
 	}
 
 	/**
 	 * Получение статуса нажатия правой кнопки мышки
 	 */
-	public isRightKeyIsPressed(): boolean {
+	public isRightKeyPressed(): boolean {
 		return this.rightKeyIsPressed;
 	}
 
